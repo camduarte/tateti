@@ -2,10 +2,12 @@
   const jugador1 = "X";
   const jugador2 = "O";
   let turno = jugador1;
-  let tateti = new Array();
-  tateti[0] = new Array();
-  tateti[1] = new Array();
-  tateti[2] = new Array();
+
+  // array 3x3 representado el tablero del tateti.
+  const tateti = new Array(3);
+  tateti[0] = new Array(3);
+  tateti[1] = new Array(3);
+  tateti[2] = new Array(3);
   
   /**
    * Cambia el turno del jugador.
@@ -30,11 +32,12 @@
    */
   function verificarGanador () {
     let hayGanador = false;
-    if (tateti[0] [0] === tateti [0][1] === [0] [2] ) {
+    //combinaciones ganadoras.
+    if (tateti[0][0] === tateti [0][1] === [0][2] ) {
       hayGanador = true;
-    } else if (tateti[1] [0] === tateti [1][1] === [1] [2] ) {
+    } else if (tateti[1][0] === tateti [1][1] === [1][2] ) {
       hayGanador = true;
-    } else if (tateti[2] [0] === tateti [2][1] === [2] [2] ) {
+    } else if (tateti[2][0] === tateti [2][1] === [2][2] ) {
       hayGanador = true;
     }
     return hayGanador;
