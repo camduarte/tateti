@@ -3,14 +3,9 @@ main {
   margin: 0 auto;
 }
 
-#tateti-contenedor {
-  width: 310px;
-  height: 310px;
-  margin: 0 auto;
-}
-
 button {
   display: inline-block;
   width: 100px;
   height: 100px;
+  font-size: 40px;
 }
