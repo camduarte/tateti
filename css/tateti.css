@@ -30,15 +30,6 @@ body {
   justify-content: center;
 }
 
-#pizarra {
-}
-
-/* .casilla {
-  width: 100px;
-  height: 100px;
-  font-size: 40px;
-} */
-
 .botonera {
   display: flex;
   justify-content: center;
@@ -61,6 +52,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgba(76, 78, 74, 0.6);
+  font-size: 16px;
 }
 
 /* FIXME: Workaround para solucionar carga de la fuente. */
