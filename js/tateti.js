@@ -3,7 +3,6 @@
   const pincel = pizarra.getContext("2d");
   const colorMarron = "rgb(208, 122, 0)";
   const colorGris = "rgb(76, 78, 74)";
-  let juegoActivo = false;
 
   // Ubicación de los símbolos.
   const posX00 = 15;
@@ -35,6 +34,7 @@
 
   const jugador1 = "X";
   const jugador2 = "O";
+  let juegoActivo = false;
   let turno = jugador1;
 
   // array 3x3 representando la tabla del tatetí.
