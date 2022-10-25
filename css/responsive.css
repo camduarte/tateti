@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .btn-nuevo-juego {
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .copyright {
+        font-size: .64rem;
+    }
+}

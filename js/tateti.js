@@ -90,7 +90,6 @@
     }
 
     if(hayGanador) {
-      console.log("GANA JUGADOR: " + turno);
       juegoActivo = false;
     } else {
       cambiarTurno();
