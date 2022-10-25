@@ -54,6 +54,7 @@ body {
   font-size: 1.25rem;
   height: 3.125rem;
   max-width: 15.625rem;
+  text-shadow: -1px 0px 36px rgba(0,0,0,0.55);
   width: 15.625rem;
 }
 
