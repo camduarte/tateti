@@ -1,6 +1,14 @@
+:root {
+  --amarillo-claro: #ffff88;
+  --amarillo-claro-oscuro: #f6d644;
+  --amarillo-oscuro: #e1a700;
+  --blanco: #fdfdfd;
+  --negro: #5C5C5C;
+}
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #ffff88;
+  background-color: var(--amarillo-claro);
 }
 
 .contenedor-principal {
@@ -38,14 +46,14 @@ body {
 }
 
 .btn-nuevo-juego {
-  background-color: #f6d644;
+  background-color: var(--amarillo-claro-oscuro);
   width: 15.625rem;
   height: 3.125rem;
   max-width: 15.625rem;
   border-radius: 1.25rem;
-  border: 1px solid #e1a700;
+  border: 1px solid var(--amarillo-oscuro);
   font-size: 1.25rem;
-  color: #ffffff;
+  color: var(--blanco);
 }
 
 .copyright {
@@ -59,6 +67,6 @@ body {
 
 /* FIXME: Workaround para solucionar carga de la fuente. */
 .ocultar {
-  color: #ffff88;
+  color: var(--amarillo-claro);
   font-family: 'Press Start 2P', cursive;
 }
