@@ -6,6 +6,7 @@
   }
 
   .copyright {
-    font-size: .62rem;
+    flex-direction: column;
+    line-height: 1.5rem;
   }
 }
